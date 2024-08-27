@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <title>Notification</title>
+
+    <link rel="icon" href="./favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/227107b367.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div class="buttons">
+        <button onclick="showToast(successMsg)">&nbspSuccess</button>
+        <button onclick="showToast(errorMsg)">Error</button>
+        <button onclick="showToast(invalidMsg)">Invalid</button>
+    </div>
+    <div id="toastBox">
+
+    </div>
+    <script src="script.js"></script> 
+</body>
